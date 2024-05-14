@@ -1,0 +1,80 @@
+body {
+    font-family: 'Poppins', sans-serif; /* Define a fonte Poppins como principal */
+    display: flex; /* Usa flexbox para alinhar os itens */
+    justify-content: center; /* Centraliza horizonaltmente o conteúdo */
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+    height: 100vh; /* Define a altura da página como 100% da altura da janela de visualização */
+    margin: 0; /* Remove qualquer margem padrão */
+    background-color: #f5f5f5; /* Define a cor de fundo da página */
+}
+
+/* Estiliza o container principal do formulário de login */
+.container {
+    background-color: white; /* Define a cor de fundo do container como branco */
+    padding: 40px; /* Adiciona espaçamento interno ao container */
+    border-radius: 10px; /* Arredonda os cantos do container */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra ao container */
+    text-align: center; /* Centraliza o texto dentro do container */
+    width: 300px; /* Define a largura do container */
+}
+
+/* Estiliza o título do formulário */
+h1 {
+    margin-bottom: 24px; /* Adiciona espaçamento abaixo do título */
+    font-size: 24px; /* Define o tamanho da fonte do título */
+    color: #333; /* Define a cor do texto do título */
+}
+
+/* Estiliza o campo de entrada (input) */
+.input-field {
+    margin-bottom: 20px; /* Adiciona espaçamento abaixo do campo de entrada */
+}
+
+/* Estiliza os contêineres individuais dos campos de usuário e senha */
+.input-field .user,
+.input-field .password {
+    margin-bottom: 15px; /* Adiciona espaçamento abaixo de cada campo */
+    text-align: left; /* Alinha o texto dentro dos campos de input à esquerda */
+}
+
+/* Estiliza as etiquetas (labels) dos campos */
+label {
+    display: block; /* Faz com que a etiqueta ocupe uma linha inteira */
+    margin-bottom: 5px; /* Adiciona espaçamento abaixo da etiqueta */
+    font-weight: 500; /* Define a espessura da fonte da etiqueta */
+}
+
+/* Estiliza os campos de entrada de e-mail e senha */
+input[type='email'],
+input[type='password'] {
+    width: 100%; /* Define a largura dos campos como 100% do contêiner pai */
+    padding: 10px; /* Adiciona espaçamento interno aos campos */
+    border: 1px solid #ccc; /* Define a borda dos campos */
+    border-radius: 5px; /* Arredonda os cantos dos campos */
+    box-sizing: border-box; /* Inclui o padding e a borda no cálculo da largura total */
+    font-size: 14px; /* Define o tamanho da fonte dos campos */
+    }
+
+/* Estiliza os campos de entrada quando estão em foco (selecionados) */
+input[type='email'] focus
+input[type='password'] focus {
+    border-color: #00cc66; /* Muda a cor da borda para verde quando selecionada */
+}
+
+/* Estiliza o botão de envio */
+input[type='submit'] {
+    background-color: #00cc66; /* Define a cor verde de fundo do botão */
+    color: white; /* Define a cor do texto do botão como branco */
+    border: none; /* Remove qualquer borda do botão */
+    padding: 10px; /* Adiciona espaçamento interno ao botão */
+    border-radius: 5px; /* Arredonda o campo do botão */
+    width: 100%; /* Define a largura do botão como 100% do contêiner pai */
+    font-size: 16px; /* Define o tamanho da fonte do texto do botão */
+    cursor: pointer; /* Muda o cursor para indicar que o botão é clicável */
+    transition: background-color 0.3s; /* Adiciona uma transição suave na mudança da cor de fundo */
+}
+
+/* Estiliza o botão de envio quando o mouse está sobre ele (hover) */
+input[type='submit'] hover {
+    background-color: #00994d; /* Muda a cor de fundo do botão quando o mouse está sobre ele */
+}
